@@ -1,0 +1,223 @@
+/*=====================================
+Base styling 
+=====================================*/
+
+/* Wildcard Selectors */
+* {
+    box-sizing: border-box;
+    font-family: 'Hind Madurai', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(68, 68, 70);
+}
+
+/* Tag Selectors */
+h3 {
+    margin-bottom: 0;
+}
+
+/* Container Selectors */
+.head-wrap, .foot-wrap {
+    background-color: rgb(252, 245, 238);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Class Selectors */
+.about-photo {
+    width: 315px;
+    order: 1;
+    margin: 10px auto;
+}
+.about-paragraph {
+    flex-basis: 360px;
+    order: 0;
+    margin: 10px 15px;
+}
+.box-width {
+    max-width: 340px;
+}
+.portfolio-image {
+    max-width: 100%;
+}
+.header-navbar {
+    padding-top: 25px;
+}
+.navbar {
+    width: 360px;
+    max-width: 400px;
+    flex-grow: 0;
+}
+.navbar-list {
+    justify-content: space-around;
+    flex-basis: 110px
+}
+.nav-link {
+    margin: 5px auto;
+    padding: 10px 0;
+    flex-grow: 1;
+    background-color: rgb(252, 251, 249);
+}
+.section-item {
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: baseline;    
+}
+.contact-card {
+    margin-bottom: 5px;
+}
+.light-weight {
+    color: rgb(120, 120, 124);
+}
+.phone-info {
+    margin: 0;
+}
+.contact-info {
+    margin: 0.5rem;
+    align-self: baseline;
+}
+.contact-details {
+    font-weight: bold;
+}
+.contact-title {
+    font-weight: lighter;
+}
+.desktop-footer-nav {
+    display: none;
+}
+.footer-navbar-list {
+    border-top: 1px dashed rgba(68, 68, 70, .1);
+    padding: 1rem;
+}
+.name-footer-nav {
+    order: 0;
+}
+.mobile-footer-nav {
+    padding-right: none;
+    order: 2;
+}
+.hidden-list {
+    order: 1;
+}
+
+/* ID Selectors */
+#student-name {
+    flex-grow: 3;
+    flex-basis: 344px;
+    text-align: center;
+    font-size: x-large;
+}
+#portfolio {
+    margin: 2rem 0;
+}
+#contact {
+    font-size: medium;
+}
+/* Common Settings */
+.box-width,
+.navbar,
+#student-name,
+.section-item {
+    margin: 0 auto;
+}
+.navbar-list,
+.section-item
+.contact-card
+ {
+    flex-direction: column;
+}
+.contact-card,
+.footer-navbar-list,
+.hidden-list {
+    justify-content: space-between;
+}
+p,
+.contact-card,
+.nav-link,
+#portfolio
+    {
+    justify-content: center;
+    text-align: center;
+}
+li,
+p,
+.contact-details {
+    text-transform: none;
+}
+#back-to-top,
+#contact,
+#portfolio,
+.nav-link,
+.desktop-footer-nav,
+a  {
+    text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+a,
+.footer-navbar-list {
+    font-weight: bolder;
+}
+
+/*=====================================
+Media Queries
+=====================================*/
+
+/* Screen between 540 and 720 pixels */
+@media screen and (min-width: 540px){
+    .nav-link {
+        background-color: inherit;
+    }
+    .navbar-list {
+        flex-direction: row;
+    }
+    .box-width {
+        max-width: 720px;
+    }
+    .section-item {
+        max-width: 250px;
+    }
+    .mobile-footer-nav {
+        display: none
+    }
+    .desktop-footer-nav {
+        display: inline-block;
+        padding: .8rem;
+    }
+    .footer-navbar-list {
+        align-items: baseline;
+        padding: 2rem;
+    }
+}
+
+/* Screen larger than 720 pixels */
+@media screen and (min-width: 721px) {
+    .box-width {
+        max-width: 750px;
+    }
+    .section-item {
+        max-width: 200px;
+    }
+    .header-navbar {
+        align-items: center;
+    }
+    #student-name,
+    .about-paragraph  {
+        text-align: left;
+    }
+    .about-photo {
+        margin-right: 0;
+    }
+    .about-paragraph {
+        margin-left: 0;
+    }
+    .navbar-list {
+        justify-content: space-between;
+    }
+    .contact-card {
+        flex-direction: column;
+    }
+}
