@@ -23,7 +23,7 @@ const projects = [
         imageSrc : 'img/responsive-layout.png',
         altText : 'employee directory search site',
         title : 'Project: Mobile 1st Responsive Layout',
-        description : '',
+        description : 'In this project, I learned to build a responsive layout using media queries, and relative positioning.',
     },
     {
         projectId : 'project-folders',
@@ -103,7 +103,7 @@ projects.forEach(project => {
         <div class="folder-front"></div>
         <h2 id="${project.tabId}" class="folder-tab">${project.tabText}</h2>
         <div class="frame">
-        <a href="${project.href} target="_blank">
+        <a href="${project.href}" target="_blank">
             <img class="project" src="${project.imageSrc}" alt="${project.altText}">
         </a>
         <h3>${project.title}</h3>
