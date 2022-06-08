@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lightbox css styling -->
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Searchable Photo Gallery</title>
+</head>
+<body>
+    <header>
+        <input class="search" type="search" name="search" id="search" placeholder="Search">
+    </header>
+    <main>
+        <div class="container">
+
+            <!-- Lightbox gallery -->
+                <div class="gallery">
+                    <a class="lightbox" href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields." >
+                        <img src="photos/thumbnails/01.jpg" data-echo="photos/thumbnails/01.jpg" alt="Countryside past some straw fields."/>
+                    </a>
+                    <a class="lightbox" href="photos/02.jpg" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+                        <img src="photos/thumbnails/02.jpg" data-echo="photos/thumbnails/02.jpg" alt="Snow on the mountains."/>
+                    </a>
+                    <a class="lightbox" href="photos/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below." >
+                        <img src="photos/thumbnails/03.jpg" data-echo="photos/thumbnails/03.jpg" alt="The canyon and trees below." />
+                    </a>
+                    <a class="lightbox" href="photos/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." >
+                        <img src="photos/thumbnails/04.jpg" data-echo="photos/thumbnails/04.jpg" alt="An iceberg up close."/>
+                    </a>
+                    <a class="lightbox" href="photos/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+                        <img src="photos/thumbnails/05.jpg" data-echo="photos/thumbnails/05.jpg" alt="Red cliffs in the desert."/>
+                    </a>
+                    <a class="lightbox" href="photos/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color." >
+                        <img src="photos/thumbnails/06.jpg" data-echo="photos/thumbnails/06.jpg" alt="Leaves on the trees starting to change color."/>
+                    </a>
+                    <a class="lightbox" href="photos/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+                        <img src="photos/thumbnails/07.jpg" data-echo="photos/thumbnails/07.jpg" alt="Green foliage on a plantation."/>
+                    </a>
+                    <a class="lightbox" href="photos/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+                        <img src="photos/thumbnails/08.jpg" data-echo="photos/thumbnails/08.jpg" alt="Sandy dunes on the Oregon Coast."/>
+                    </a>
+                    <a class="lightbox" href="photos/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+                        <img src="photos/thumbnails/09.jpg" data-echo="photos/thumbnails/09.jpg" alt="A quiet stroll down a countryside lane."/>
+                    </a>
+                    <a class="lightbox" href="photos/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange." >
+                        <img src="photos/thumbnails/10.jpg" data-echo="photos/thumbnails/10.jpg" alt="An orange sunset sky."/>
+                    </a>
+                    <a class="lightbox" href="photos/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking." >
+                        <img src="photos/thumbnails/11.jpg" data-echo="photos/thumbnails/11.jpg" alt="An open landscape viewed from a cave."/>
+                    </a>
+                    <a class="lightbox" href="photos/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+                        <img src="photos/thumbnails/12.jpg" data-echo="photos/thumbnails/12.jpg" alt="The snow on the mountain."/>
+                    </a>
+                </div>
+
+        </div>
+
+    </main>
+    <!-- Search filter function -->
+    <script src="js/pageFilter.js"></script>
+
+    <!-- Lightbox and search filter listeners -->
+    <script src="js/app.js"></script>
+
+    <!-- Lightbox functions -->
+    <script src="js/baguetteBox.min.js"></script>
+</body>
+</html>
