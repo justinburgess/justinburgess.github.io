@@ -1,3 +1,4 @@
+const menu = document.getElementById('menu');
 const overlay = document.getElementById('overlay');
 const mainWrap = document.getElementById('main-wrap');
 
@@ -11,7 +12,7 @@ const menuIconMap = {
     'menu-image-directory' : 'project-directory',
     'menu-image-responsive' : 'project-responsive',
     'menu-image-folders' : 'project-folders'
-}
+};
 
 const projects = [
     {
@@ -86,7 +87,7 @@ const projects = [
         title : 'Project: Open Folders',
         description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.'
     }
-]
+];
 
 projects.forEach(project => {
     mainWrap.insertAdjacentHTML('afterbegin', `
@@ -99,7 +100,7 @@ projects.forEach(project => {
         <p>${project.description}</p>
         </div>
     </div>
-    `)
+    `);
 });
 
 function setOverlay(boolean) {
@@ -118,7 +119,7 @@ menu.addEventListener('click', (e) => {
     if (menuIconMap[targetId]) {
         const projectFolder = document.getElementById(menuIconMap[targetId]);
         setOverlay(false);
-        Array.from(mainWrap.children).map(child => child.style.display = 'none')
+        Array.from(mainWrap.children).map(child => child.style.display = 'none');
         projectFolder.style.display = 'block';
     } 
     else if(window.innerWidth < 768) {
@@ -132,9 +133,8 @@ window.addEventListener('resize', (e) => {
     if (screenWidth >= 768) {
         overlay.style.display = 'none';
         Array.from(mainWrap.children).map(child => child.style.display = 'block');
-    }
-    if (screenWidth < 768) {
+    } else {
         overlay.style.display = 'grid';
         Array.from(mainWrap.children).map(child => child.style.display = 'none');
     }
-})
+});
