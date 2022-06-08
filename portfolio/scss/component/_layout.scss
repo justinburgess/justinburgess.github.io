@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    transition: all .5s ease-in-out;
+}
+
+#header {
+    width: 100%;
+    padding: 5vh 0;
+}
+
+#heading {
+    display: none;
+}
+
+.folder-icon {
+    position: absolute;
+    width: 180px;
+    transform: translate(40%, 35%);
+}
+
+
+#menu {
+    position: relative;
+    max-width: 320px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+#menu:hover {
+    z-index: 0;
+    .pop-icon{
+        opacity: 1;
+    }
+    #menu-news {
+        transform: translate(0, -140px) scale(1.5);
+    }
+    #menu-style {
+        transform: translate(100px, -110px) scale(1.5);
+    }
+    #menu-gallery {
+        transform: translate(130px, 0) scale(1.5);
+    }
+    #menu-game {
+        transform: translate(100px, 110px) scale(1.5);
+    }
+    #menu-dashboard {
+        transform: translate(0, 130px) scale(1.5);
+    }
+    #menu-directory {
+        transform: translate(-100px, 110px) scale(1.5);
+    }
+    #menu-responsive {
+        transform: translate(-130px, 0) scale(1.5);
+    }
+    #menu-folders {
+        transform: translate(-100px, -110px) scale(1.5);
+    }
+}
+
+.pop-icon {
+    opacity: 0;
+    position: absolute;
+    width: 30px;
+    top: 48%;
+    right: 45%;
+    transition: all .5s;
+    & img:hover {
+        transform: scale(1.2);
+    }
+}
+
+main {
+    height: 100%;
+}
+
+.main-overlay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    svg {
+        width: 200px;
+    }
+    #linkedin-overlay,
+    #contact-overlay {
+        width: 40px;
+        text-align: center;
+    }
+}
+
+.main-wrap {
+    padding: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+.folder-front {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 99%;
+    top: 5px;
+    left: 7px;
+    z-index: 2;
+    border: 1px solid $primaryDarkPop;
+    border-radius: 3% 2% 2% 0% / 2% 2% 79% 40%;
+    transform-origin: bottom;
+    transition: all .8s ease-in-out;
+}
+
+.folder-tab {
+    display: block;
+    position: absolute;
+    padding: .6rem;
+    top: -3rem;
+    border-radius: 51% 50% 0% 0% / 25% 29% 28% 32% ;
+    text-align: left;
+}
+
+.folder {
+    display: none;
+    position: relative;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid $primaryDarkPop;
+    border-radius: 3% 2% 0% 2% / 2% 2% 79% 40%;
+    text-align: center;
+    transform: rotateY(2deg);
+    z-index: 0;
+    &:hover {
+        .folder-front {
+            transform: rotateX(95deg) skewX(-25deg);
+        }
+    }
+}
+
+.frame {
+    padding: 1rem;
+    border: 5px dashed $tabColor2;
+    border-radius: 5px;
+}
+
+img {
+    width: 80%;
+    max-width: 130px;
+}
+
+p {
+    text-align: center;
+}
+
+.footer-icon {
+    display: none;
+}
+
+footer {
+    display: none;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    #header {
+        padding: 0;
+    }
+
+    #menu:hover {
+        .pop-icon  {
+            transform: none !important;
+        }
+        
+    }
+    .folder-icon {
+        transform: none;
+    }
+    #icons {
+        align-self: end;
+    }
+    #menu-linkedin,
+    #menu-contact {
+        display: none;
+    }
+    #menu {
+        padding: 1rem;
+        max-width: 90%;
+        min-height: 95%;
+    }
+    .folder-icon,
+    .pop-icon {
+        position: static;
+    }
+    .pop-icon {
+        width: 40px;
+    }
+    .main-overlay {
+        display: none;
+    }
+    .folder {
+        display: block;
+        img {
+            max-width: 200px;
+        }
+    }
+    .main-wrap,
+    #header,
+    #header-wrap {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    footer {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        min-height: 75px;
+        max-width: 1024px;
+        .footer-icon {
+            display: block;
+            text-align: center;
+        }
+        img {
+            width: 30px;
+            box-shadow: none;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+    }
+}
+
+@media (min-width: 1024px) {
+    #heading {
+        display: inline-block;
+    }
+    .folder-icon {
+        width: 220px;
+    }
+    .icon-text {
+        display: none;
+    }
+    #menu {
+        position: relative;
+        padding: 0;
+    }
+    #icons {
+        // display: block;
+        position: absolute;
+        gap: 6px;
+        top: 80px;
+        left: 22px;
+    }
+    img {
+        max-width: 350px;
+    }
+}

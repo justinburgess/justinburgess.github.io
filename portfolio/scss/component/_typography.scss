@@ -1,0 +1,27 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#heading {
+    font-size: 80px;
+}
+
+.folder-tab {
+    font-size: 16px;
+}
+
+.folder {
+    font-size: 11px;
+}
+
+@media (min-width: 768px) {
+    .folder {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .folder {
+        font-size: inherit;
+    }
+}
