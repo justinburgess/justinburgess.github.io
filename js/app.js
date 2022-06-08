@@ -23,7 +23,7 @@ const projects = [
         imageSrc : 'img/responsive-layout.png',
         altText : 'employee directory search site',
         title : 'Project: Mobile 1st Responsive Layout',
-        description : 'In this project, I learned to build a responsive layout using media queries, flex and relative positioning.',
+        description : 'In this project, I built a responsive layout using media queries, flex and relative positioning.',
     },
     {
         projectId : 'project-folders',
@@ -43,7 +43,7 @@ const projects = [
         imageSrc : 'img/newsletter-signup.png',
         altText : 'news signup site',
         title : 'Project: Newsletter Signup',
-        description : 'In this project, I learned to leverage forms to capture form data, set requirements for form input, and transition css effects when fields are focused.',
+        description : 'In this project, I leverage forms to capture form data, set requirements for form input, and transition css effects when fields are focused.',
     },
     {
         projectId : 'project-style',
@@ -53,7 +53,7 @@ const projects = [
         imageSrc : 'img/web-style-guide.png',
         altText : 'web style guide site',
         title : 'Project: Web Style Guide',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.'
+        description : 'In this project, I demo using SCSS for streamlining css source code, and leveraging the web to build css and html design standards.'
     },
     {
         projectId : 'project-gallery',
@@ -63,7 +63,7 @@ const projects = [
         imageSrc : 'img/interactive-photo-gallery.png',
         altText : 'photo gallery site',
         title : 'Project: Photo Gallery',
-        description : 'In this project, I learned to use CSS grid to create a dynamic, responsive layout, and to use Javascript for lightbox gallery view and search functionality.'  
+        description : 'Here, I use CSS grid to create a dynamic, responsive layout, and to use Javascript for lightbox gallery view and search functionality.'  
     },
     {
         projectId : 'project-game',
@@ -73,7 +73,7 @@ const projects = [
         imageSrc : 'img/game-show-app.png',
         altText : 'game show site',
         title : 'Project: Game Show App',
-        description : 'In this project, I learned to use javascript to track scores, interact with DOM elements to display user choices and display messages depending on win or lose status.'
+        description : 'In this app, I use javascript to track scores, interact with DOM elements to display user choices and display messages depending on win or lose status.'
     },
     {
         projectId : 'project-directory',
@@ -83,7 +83,7 @@ const projects = [
         imageSrc : 'img/employee-directory.png',
         altText : 'employee directory search site',
         title : 'Project: Employee Directory',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
+        description : 'This app uses fetch API calls to pull random user data from a random user generator, and builds a responsive directory which is searchable from the web page.',
     },
     {
         projectId : 'project-dashboard',
@@ -93,7 +93,7 @@ const projects = [
         imageSrc : 'img/web-app-dashboard.png',
         altText : 'web app dashboard site',
         title : 'Project: Web App Dashboard',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
+        description : 'The Web App Dashboard is a simulated dashboard. It displays graphs pulled from a textual data source, displays notifications and stores data using the browser local storage.',
     }
 ];
 
