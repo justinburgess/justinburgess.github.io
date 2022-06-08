@@ -103,7 +103,7 @@ projects.forEach(project => {
         <div class="folder-front"></div>
         <h2 id="${project.tabId}" class="folder-tab">${project.tabText}</h2>
         <div class="frame">
-        <a href="${project.href}">
+        <a href="${project.href} target="_blank">
             <img class="project" src="${project.imageSrc}" alt="${project.altText}">
         </a>
         <h3>${project.title}</h3>
