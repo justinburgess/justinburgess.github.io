@@ -76,16 +76,6 @@ const projects = [
         description : 'In this project, I learned to use javascript to track scores, interact with DOM elements to display user choices and display messages depending on win or lose status.'
     },
     {
-        projectId : 'project-dashboard',
-        tabId : 'tab-dashboard',
-        tabText : 'Web App Dashboard',
-        href : 'https://justinburgess.github.io/web-app-dashboard',
-        imageSrc : 'img/web-app-dashboard.png',
-        altText : 'web app dashboard site',
-        title : 'Project: Web App Dashboard',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
-    },
-    {
         projectId : 'project-directory',
         tabId : 'tab-directory',
         tabText : 'Employee Directory',
@@ -93,6 +83,16 @@ const projects = [
         imageSrc : 'img/employee-directory.png',
         altText : 'employee directory search site',
         title : 'Project: Employee Directory',
+        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
+    },
+    {
+        projectId : 'project-dashboard',
+        tabId : 'tab-dashboard',
+        tabText : 'Web App Dashboard',
+        href : 'https://justinburgess.github.io/web-app-dashboard',
+        imageSrc : 'img/web-app-dashboard.png',
+        altText : 'web app dashboard site',
+        title : 'Project: Web App Dashboard',
         description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
     }
 ];
