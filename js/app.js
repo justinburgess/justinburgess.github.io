@@ -16,9 +16,30 @@ const menuIconMap = {
 
 const projects = [
     {
+        projectId : 'project-responsive',
+        tabId : 'tab-responsive',
+        tabText : 'Mobile First Layout',
+        href : 'https://justinburgess.github.io/mobile-1st-responsive-layout',
+        imageSrc : 'img/responsive-layout.png',
+        altText : 'employee directory search site',
+        title : 'Project: Mobile 1st Responsive Layout',
+        description : '',
+    },
+    {
+        projectId : 'project-folders',
+        tabId : 'tab-folders',
+        tabText : 'Folders',
+        href : 'https://justinburgess.github.io/open-folders',
+        imageSrc : 'img/folder-open.svg',
+        altText : 'open folders site',
+        title : 'Project: Open Folders',
+        description : 'This project is currently under construction. The purpose of this project is to build reusable folders using HTML and CSS code with a Javascript plug-in for visual folder elements, like the ones in this portfolio.'
+    },
+    {
         projectId : 'project-news',
         tabId : 'tab-news',
         tabText : 'Newsletter',
+        href : 'https://justinburgess.github.io/newsletter-signup',
         imageSrc : 'img/newsletter-signup.png',
         altText : 'news signup site',
         title : 'Project: Newsletter Signup',
@@ -28,6 +49,7 @@ const projects = [
         projectId : 'project-style',
         tabId : 'tab-style',
         tabText : 'Style Guide',
+        href : 'https://justinburgess.github.io/web-style-guide',
         imageSrc : 'img/web-style-guide.png',
         altText : 'web style guide site',
         title : 'Project: Web Style Guide',
@@ -37,6 +59,7 @@ const projects = [
         projectId : 'project-gallery',
         tabId : 'tab-gallery',
         tabText : 'Photo Gallery',
+        href : 'https://justinburgess.github.io/interactive-photo-gallery',
         imageSrc : 'img/interactive-photo-gallery.png',
         altText : 'photo gallery site',
         title : 'Project: Photo Gallery',
@@ -46,6 +69,7 @@ const projects = [
         projectId : 'project-game',
         tabId : 'tab-game',
         tabText : 'Game Show App',
+        href : 'https://justinburgess.github.io/game-show-app',
         imageSrc : 'img/game-show-app.png',
         altText : 'game show site',
         title : 'Project: Game Show App',
@@ -55,6 +79,7 @@ const projects = [
         projectId : 'project-dashboard',
         tabId : 'tab-dashboard',
         tabText : 'Web App Dashboard',
+        href : 'https://justinburgess.github.io/web-app-dashboard',
         imageSrc : 'img/web-app-dashboard.png',
         altText : 'web app dashboard site',
         title : 'Project: Web App Dashboard',
@@ -64,28 +89,11 @@ const projects = [
         projectId : 'project-directory',
         tabId : 'tab-directory',
         tabText : 'Employee Directory',
+        href : 'https://justinburgess.github.io/employee-directory',
         imageSrc : 'img/employee-directory.png',
         altText : 'employee directory search site',
         title : 'Project: Employee Directory',
         description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
-    },
-    {
-        projectId : 'project-responsive',
-        tabId : 'tab-responsive',
-        tabText : 'Mobile First Layout',
-        imageSrc : 'img/responsive-layout.png',
-        altText : 'employee directory search site',
-        title : 'Project: Mobile 1st Responsive Layout',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.',
-    },
-    {
-        projectId : 'project-folders',
-        tabId : 'tab-folders',
-        tabText : 'Folders',
-        imageSrc : 'img/folder-open.svg',
-        altText : 'open folders site',
-        title : 'Project: Open Folders',
-        description : 'In this project, I learned to use SCSS for streamlining and standardizing css source code.'
     }
 ];
 
@@ -95,7 +103,7 @@ projects.forEach(project => {
         <div class="folder-front"></div>
         <h2 id="${project.tabId}" class="folder-tab">${project.tabText}</h2>
         <div class="frame">
-        <a href="#">
+        <a href="${project.href}">
             <img class="project" src="${project.imageSrc}" alt="${project.altText}">
         </a>
         <h3>${project.title}</h3>
