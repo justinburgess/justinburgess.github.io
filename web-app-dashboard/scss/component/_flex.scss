@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+}
+#top,
+#top-right,
+#top-left,
+nav,
+.traffic-nav {
+    justify-content: space-evenly;
+}
+
+.social-text,
+.members-text,
+.activity-text,
+.members-container,
+.activity-container,
+form,
+.social-containers,
+.settings .inner-wrapper {
+    flex-direction: column;
+}
+
+.social-platform,
+.members-container,
+.activity-container,
+.alert-banner,
+#top-left,
+#top-right {
+    align-items: center;
+
+}
+
+.switch-light {
+    justify-content: space-between;
+}
+
+.alert-banner, .settings .inner-wrapper {
+    justify-content: space-between;
+}
+
+.settings-button {
+    justify-content: space-around;
+}

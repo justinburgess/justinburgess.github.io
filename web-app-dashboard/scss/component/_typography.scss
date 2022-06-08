@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-size: 20px;
+}
+h2, h3, li, select, input, textarea, .switch-light {
+    font-size: 15px;
+}
+h1, h2, a {
+    text-transform: capitalize;
+}
+h3 {
+    text-transform: uppercase;
+}
+#bell-list li {
+    font-weight: bold;
+}
+.alert-banner-close {
+    font-size: large;
+}
+.traffic-nav-link {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.social-text p:first-child {
+    font-size: 20px;
+}
+.social-text p:nth-child(2) {
+    font-size: 40px;
+}
+.members-container,
+.activity-container {
+    text-align: center;
+}
