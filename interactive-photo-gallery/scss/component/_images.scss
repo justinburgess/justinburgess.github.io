@@ -1,0 +1,17 @@
+//--------------------------------------------/
+//    Images    ------------------------------/
+//--------------------------------------------/
+
+/* 
+*   Image styling
+*/
+.lightbox img {
+    width: 100%;
+    transition: .2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    max-height: 198px;
+    object-fit: cover;
+    &:focus, &:hover {
+      box-shadow: 0px 5px 6px 0px rgba(74,140,255,0.81);
+  }
+}
