@@ -95,7 +95,9 @@ projects.forEach(project => {
         <div class="folder-front"></div>
         <h2 id="${project.tabId}" class="folder-tab">${project.tabText}</h2>
         <div class="frame">
-        <img class="project" src="${project.imageSrc}" alt="${project.altText}">
+        <a href="#">
+            <img class="project" src="${project.imageSrc}" alt="${project.altText}">
+        </a>
         <h3>${project.title}</h3>
         <p>${project.description}</p>
         </div>
