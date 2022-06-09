@@ -468,7 +468,11 @@ body footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "heading folder" "icons";
+<<<<<<< HEAD
     place-items: center;
+=======
+    align-items: center;
+>>>>>>> 43d26ed77c28cb37cd03176f61141aea2de830d3
   }
 
   #menu {
