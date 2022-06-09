@@ -471,14 +471,6 @@ body footer {
     align-items: center;
   }
 
-  #header {
-    display: grid;
-    grid-area: header;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    text-align: center;
-  }
-
   #menu {
     display: block;
   }
@@ -499,7 +491,7 @@ body {
 }
 
 body {
-  height: 100vh;
+  height: 90vh;
   transition: all 0.5s ease-in-out;
 }
 
@@ -656,6 +648,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
   #header {
     padding: 0;
   }
