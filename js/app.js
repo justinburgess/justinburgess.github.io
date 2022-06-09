@@ -23,7 +23,7 @@ const projects = [
         imageSrc : 'img/responsive-layout.png',
         altText : 'employee directory search site',
         title : 'Project: Mobile 1st Responsive Layout',
-        description : 'In this project, I built a responsive layout using media queries, flex and relative positioning.',
+        description : 'In this site, I built a responsive layout using media queries, flex display and relative positioning.',
     },
     {
         projectId : 'project-folders',
@@ -53,7 +53,7 @@ const projects = [
         imageSrc : 'img/web-style-guide.png',
         altText : 'web style guide site',
         title : 'Project: Web Style Guide',
-        description : 'In this project, I demo using SCSS for streamlining css source code, and leveraging the web to build css and html design standards.'
+        description : 'In this page uses SCSS for organizing css source code, and leveraging the web to build css and html design standards.'
     },
     {
         projectId : 'project-gallery',
@@ -138,13 +138,15 @@ menu.addEventListener('click', (e) => {
 }); 
 
 // formats window on resize
+let previousWidth = 0;
 window.addEventListener('resize', (e) => {
     const screenWidth = e.currentTarget.screen.width;
-    if (screenWidth >= 768) {
+    if (screenWidth >= 768 && previousWidth < 768) {
         overlay.style.display = 'none';
         Array.from(mainWrap.children).map(child => child.style.display = 'block');
-    } else {
+    } else if (screenWidth < 768 && previousWidth >= 768) {
         overlay.style.display = 'grid';
         Array.from(mainWrap.children).map(child => child.style.display = 'none');
     }
+    previousWidth = screenWidth;
 });

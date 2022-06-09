@@ -468,15 +468,7 @@ body footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "heading folder" "icons";
-    align-items: center;
-  }
-
-  #header {
-    display: grid;
-    grid-area: header;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    text-align: center;
+    place-items: center;
   }
 
   #menu {
@@ -751,7 +743,7 @@ footer {
     position: absolute;
     gap: 6px;
     top: 80px;
-    left: 22px;
+    left: 25px;
   }
 
   img {

@@ -126,7 +126,7 @@ body {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-areas: 'heading folder' 'icons' ;
-        align-items: center;
+        place-items: center;
     }
 
     #menu {
