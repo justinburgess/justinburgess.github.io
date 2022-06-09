@@ -491,7 +491,7 @@ body {
 }
 
 body {
-  height: 99vh;
+  height: 100vh;
   transition: all 0.5s ease-in-out;
 }
 
@@ -648,10 +648,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  body {
-    height: 100vh;
-  }
-
   #header {
     padding: 0;
   }
