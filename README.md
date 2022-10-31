@@ -56,7 +56,7 @@ Repo dedicated to projects by Justin M. Burgess.
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ol align="center">
     <li>
       <a href="#about-the-author">About The Author</a>
       <ul>
