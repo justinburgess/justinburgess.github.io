@@ -69,10 +69,10 @@ Repo dedicated to projects by Justin M. Burgess.
 
 
 <!-- ABOUT THE PROJECT -->
-<h2 align="left">About The Author</h2>
+<h2>About The Author</h2>
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-<p align="left">
+<p>
     Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles. In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
 </p>
 
@@ -85,7 +85,7 @@ Repo dedicated to projects by Justin M. Burgess.
     This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 </p>
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
