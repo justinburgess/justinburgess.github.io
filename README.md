@@ -35,9 +35,9 @@ Repo dedicated to projects by Justin M. Burgess.
     <img src="img/folder-open.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Web Portfolio of Justin Burgess</h3>
 
-  <p align="center">
+  <!-- <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
@@ -49,7 +49,7 @@ Repo dedicated to projects by Justin M. Burgess.
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
-</div>
+</div> -->
 
 
 
@@ -58,7 +58,7 @@ Repo dedicated to projects by Justin M. Burgess.
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-author">About The Author</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -82,20 +82,22 @@ Repo dedicated to projects by Justin M. Burgess.
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Author
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles.
 
-Here's why:
+In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
+
+<!-- Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
+Use the `BLANK_README.md` to get started. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
