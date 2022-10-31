@@ -59,10 +59,8 @@ Repo dedicated to projects by Justin M. Burgess.
   <ol align="center">
     <li>
       <a href="#about-the-author">About The Author</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
