@@ -1,0 +1,133 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    'header'
+    'main'
+    ;
+
+    header {
+        grid-area: header;
+    }
+    main {
+        grid-area: main;
+    }
+    footer {
+        grid-area: footer;
+    }
+}
+
+.main-overlay {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'github github'
+    'linkedin contact'
+    ;
+    #github-overlay {
+        grid-area: github;
+        padding-top: 50px;
+    }
+    #linkedin-overlay {
+        grid-area: linkedin;
+    }
+    #contact-overlay {
+        grid-area: contact;
+    }
+}
+
+@media (min-width: 768px){
+
+    body {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        'header' 
+        'main' 
+        'footer'
+        ;
+    }
+
+    #menu {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'folder'
+        'icons'
+        ;
+        .folder-icon {
+            grid-area: folder;
+        }
+        #icons {
+            grid-area: icons;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-areas: 'news style gallery game dashboard directory responsive folders';
+        }
+        #menu-news {
+            grid-area: news;
+        }
+        #menu-style {
+            grid-area: style;
+        }
+        #menu-gallery {
+            grid-area: gallery;
+        }
+        #menu-game {
+            grid-area: game;
+        }
+        #menu-dashboard {
+            grid-area: dashboard;
+        }
+        #menu-directory {
+            grid-area: directory;
+        }
+        #menu-responsive {
+            grid-area: responsive;
+        }
+        #menu-folders {
+            grid-area: folders;
+        }
+
+        .pop-icon {
+            opacity: 1;
+        }
+    }
+    .folder-icon {
+        place-self: center;
+    }
+
+    .pop-icon {
+        place-self: center;
+    }
+
+    footer {
+        display: grid !important; 
+        grid-template-columns: 1fr 1fr 1fr;
+        place-content: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    #header-wrap {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 'heading folder' 'icons' ;
+        align-items: center;
+    }
+
+    #menu {
+        display: block;
+        #icons {
+            gap: 5px 5px;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: center;
+            grid-template-areas: 
+            'news style gallery folders' 
+            'game dashboard directory responsive'
+            ;
+        }
+    }
+}

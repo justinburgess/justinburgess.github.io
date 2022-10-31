@@ -1,0 +1,91 @@
+.primary-dark {
+    background-color: $primaryDark;
+}
+
+#heading {
+    color: $primaryColorPop;
+}
+
+.main-overlay {
+    background-color: $primaryColorPop;
+    img {
+        box-shadow: none;
+    }
+}
+
+.main-wrap {
+    background-color: $primaryColorPop;
+}
+
+.folder,
+.folder-front {
+    background-color: $primaryLight;
+    box-shadow: -7px -3px 8px 2px $primaryDarkPop;
+    & img {
+        box-shadow: -7px -3px 8px 2px $primaryDarkPop;
+    }
+}
+
+.frame {
+    background-color: white;
+}
+
+#tab-news {
+    background-color: $tabColor1;
+}
+
+#tab-style {
+    background-color: $tabColor2;
+}
+
+#tab-gallery {
+    background-color: $tabColor3;
+}
+
+#tab-game {
+    background-color: $tabColor4;
+}
+
+#tab-dashboard {
+    background-color: $tabColor5;
+}
+
+#tab-directory {
+    background-color: $tabColor6;
+}
+
+#tab-responsive {
+    background-color: lighten($tabColor7, 20%);
+}
+
+#tab-folders {
+    background-color: darken($primaryLight, 25%);
+}
+
+.folder-tab {
+    color: white;
+}
+
+.footer-icon img {
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: lighten($primaryColor, 65%);
+    }
+
+    header {
+        background: center / cover no-repeat url('../img/triangles.png') $primaryDark;
+        background-blend-mode: soft-light;
+    }
+
+    footer {
+        background-color: $primaryColor;
+    }
+
+    .main-wrap {
+        background: center / cover no-repeat url('../img/brick-background.jpg') lighten($primaryColorPop, 25%);
+        background-blend-mode: soft-light;
+    }
+}
