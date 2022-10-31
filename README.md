@@ -71,55 +71,24 @@ Repo dedicated to projects by Justin M. Burgess.
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Author
+<h2 align="left">## About The Author</h2>
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 <p align="left">
-    Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles.
-
-    In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
+    Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles. In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
 </p>
-
-<!-- Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
+<p align="left">
+    This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+</p>
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-<!-- * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url] -->
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-<!-- * [![JQuery][JQuery.com]][JQuery-url] -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +103,7 @@ Project Link: [https://github.com/justinburgess/justinburgess.github.io](https:/
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -148,7 +117,7 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
