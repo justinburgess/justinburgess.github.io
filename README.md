@@ -30,12 +30,12 @@ Repo dedicated to projects by Justin M. Burgess.
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="left">
   <a href="https://justinmburgess.com">
     <img src="img/folder-open.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Web Portfolio of Justin Burgess</h3>
+  <h3>Web Portfolio of Justin Burgess</h3>
 
   <!-- <p align="center">
     An awesome README template to jumpstart your projects!
@@ -54,7 +54,7 @@ Repo dedicated to projects by Justin M. Burgess.
 
 
 <!-- TABLE OF CONTENTS -->
-<details align="left">
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
