@@ -71,7 +71,7 @@ Repo dedicated to projects by Justin M. Burgess.
 
 
 <!-- ABOUT THE PROJECT -->
-<h2 align="left">## About The Author</h2>
+<h2 align="left">About The Author</h2>
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 <p align="left">
