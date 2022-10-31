@@ -74,10 +74,11 @@ Repo dedicated to projects by Justin M. Burgess.
 ## About The Author
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<p align="left">
+    Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles.
 
-Justin Burgess is an IT Systems Engineer by trade, and is working to break into the dev side of Information Technology. Justin started off learning coding by solving coding challenges on sites like CheckIO.org and CodeWars.com, and gradually progressed to a full online bootcamp style course to learn full-stack development principles.
-
-In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
+    In his coursework, Justin completed 10 seperate projects, of which 8 are included with this portfolio.
+</p>
 
 <!-- Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -125,8 +126,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTACT -->
 ## Contact
 
-Justin Burgess - [justin@justinmburgess.com] 
-<!-- (https://twitter.com/your_username) - email@example.com -->
+Justin Burgess - [justin@justinmburgess.com]
 
 Project Link: [https://github.com/justinburgess/justinburgess.github.io](https://github.com/justinburgess/justinburgess.github.io)
 
